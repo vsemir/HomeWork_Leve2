@@ -11,6 +11,7 @@ public class Robot implements ActionInterface{
         this.makeJump = makeJump;
         this.makeRun = makeRun;
     }
+
     public void info(){
         System.out.println(name);
     }

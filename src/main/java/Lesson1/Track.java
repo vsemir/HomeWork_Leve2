@@ -16,4 +16,5 @@ public class Track implements Move{
     public boolean move(ActionInterface player) {
         return player.Run(dist);
     }
+
 }

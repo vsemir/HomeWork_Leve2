@@ -7,7 +7,6 @@ public class Human implements ActionInterface {
     private int makeRun;
 
 
-
     public Human(String name, int makeJump, int makeRun) {
         this.name = name;
         this.makeJump = makeJump;
