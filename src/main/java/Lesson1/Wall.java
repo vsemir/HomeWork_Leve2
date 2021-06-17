@@ -4,6 +4,7 @@ public class Wall implements Move{
 
     private int high;
 
+
     public Wall(String name, int high) {
         this.high = high;
     }
