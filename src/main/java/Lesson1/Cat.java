@@ -10,9 +10,11 @@ public class Cat implements ActionInterface{
         this.makeJump = makeJump;
         this.makeRun = makeRun;
     }
+
     public void info(){
         System.out.println(name);
     }
+
     @Override
     public boolean Run(int a) {
         if (a <= makeRun){

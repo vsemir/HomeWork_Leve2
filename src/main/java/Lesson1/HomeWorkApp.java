@@ -6,8 +6,6 @@ import java.util.Scanner;
 public class HomeWorkApp {
 
 
-
-
     public static void main(String[] args) {
 
         ActionInterface action[] = {new Human("Вася", 20, 15),
